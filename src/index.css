@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "FacebookNarrowApp";
+  src: url(./fonts//FacebookNarrowApp.ttf);
+}
+@font-face {
+  font-family: "FacebookScriptAppLight";
+  src: url(./fonts//FacebookScriptAppLight.ttf);
+}
+@font-face {
+  font-family: "FacebookSansApp";
+  src: url(./fonts//FacebookSansApp.ttf);
+}
+@font-face {
+  font-family: "FacebookStencil";
+  src: url(./fonts//FacebookStencil.ttf);
+}
+@font-face {
+  font-family: "FacebookSansAppHeavyItalic";
+  src: url(./fonts//FacebookSansAppHeavyItalic.ttf);
+}
+/* undisplay 1200px */
+@media (max-width: 1200px) {
+  .tabletFacebook__hidden {
+    display: none !important;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  background-color: #f2f3f5;
+}
+* {
+  margin: 0;
+}
+:root {
+  --bg_hover: rgb(236, 236, 236);
+  --text_a: #1877f2;
+  --shadown: -0.5px 1px 5px #d3d3d3;
+  --shadown_modal: 1px 2px 10px rgb(192 192 192);
+  --overlay: #f4f4f4cc;
+  --bg_button: #1b74e4;
+}
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+}
+.none {
+  display: none !important;
+}
+.underline_none {
+  text-decoration-line: none !important;
+}
+.errorBorder {
+  border-color: red !important;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.column {
+  flex-direction: column;
+}
+.justify_center {
+  justify-content: center;
+}
+.align_start {
+  align-items: flex-start;
+}
+.align_end {
+  align-items: flex-end;
+}
+.active:active {
+  transform: scale(0.95);
+}
+.centerAbsolute {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.right {
+  right: 0;
+}
+.hiddenVisibility {
+  visibility: hidden;
+  width: 0px !important;
+  height: 0px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  transition: 0.2s linear;
 }

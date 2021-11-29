@@ -1,0 +1,12 @@
+.backgroundArea_circleFrame_circle {
+  width: 25px;
+  height: 25px;
+  /* border: 3px solid #1877f2; */
+  border: 3px solid transparent;
+
+  border-radius: 25px;
+  margin-right: 4.2px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  user-select: none;
+}

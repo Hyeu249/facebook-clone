@@ -1,0 +1,19 @@
+.partOne {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  background-color: white;
+  box-shadow: -1px 3.5px 5px rgb(240, 240, 240);
+}
+.xIconLarge {
+  width: 20px;
+  height: 20px;
+  margin: 0 8px 0 17px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(163, 163, 163);
+  cursor: pointer;
+}
+.xIconLarge:active {
+  transform: scale(0.95);
+}

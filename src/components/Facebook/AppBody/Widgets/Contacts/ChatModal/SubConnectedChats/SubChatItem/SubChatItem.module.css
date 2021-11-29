@@ -1,0 +1,47 @@
+.subConnected_item {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+  background-color: #fff;
+  animation: showUp 0.1s linear;
+}
+.subConnected_status {
+  position: absolute;
+  top: 30px;
+  right: -2px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.subConnected_item:active {
+  transform: scale(0.95);
+}
+.subConnected_describeMember {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 130%;
+  width: 100px;
+  font-weight: 600;
+  padding: 5px 20px 30px 5px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 1px 2px 6px rgb(184, 184, 184);
+}
+.subConnected_item:hover + div {
+  display: block;
+}
+@keyframes showUp {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

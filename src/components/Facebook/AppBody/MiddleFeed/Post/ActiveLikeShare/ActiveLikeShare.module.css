@@ -1,0 +1,104 @@
+.post_bottom_activeLikeShare {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4px 0;
+}
+.post_bottom_activeLikeShare_item {
+  padding: 2px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #65676b;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.3333;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+}
+.post_bottom_activeLikeShare_item:hover {
+  background-color: #f0f0f0;
+}
+.post_bottom_activeLikeShare_item:active {
+  transform: scale(0.97);
+}
+
+.likeIcon {
+  transform-origin: bottom;
+  margin-bottom: -45px;
+  width: 35px;
+  margin-right: 10px;
+  pointer-events: none;
+  transition: 0.1s linear;
+}
+.loveIcon {
+  transform-origin: bottom;
+  margin-bottom: -45px;
+  width: 35px;
+  pointer-events: none;
+  transition: 0.1s linear;
+}
+
+.post_bottom_activeLikeShare_dropUp {
+  position: absolute;
+  top: -35px;
+  left: 0px;
+  padding: 4px;
+  height: 35px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 25px;
+  background-color: #fff;
+  z-index: 5;
+  visibility: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+
+#like:hover ~ div {
+  visibility: visible;
+  transition: 0.1s linear;
+}
+#like:hover ~ div img {
+  margin-bottom: 0px !important;
+  transition: 0.2s linear;
+}
+.post_bottom_activeLikeShare_dropUp:hover {
+  visibility: visible;
+}
+.post_bottom_activeLikeShare_dropUp:hover img {
+  margin-bottom: 0px !important;
+  pointer-events: unset;
+}
+.likeIcon:hover {
+  transform: scale(1.3);
+  transition: 0.2s linear;
+}
+.loveIcon:hover {
+  transform: scale(1.3);
+  transition: 0.2s linear;
+}
+.likeIcon:active {
+  transform: scale(0.95);
+}
+
+.loveIcon:active {
+  transform: scale(0.95);
+}
+.clicked {
+  animation: clicked 0.4s ease-out;
+}
+@keyframes clicked {
+  0% {
+    transform: scale(1.3);
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: translateY(-10px);
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,18 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 0px 8px;
+}
+.contacts_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0px 8px 6px;
+}
+.contacts_title_text {
+  color: #65676b;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.1765;
+}

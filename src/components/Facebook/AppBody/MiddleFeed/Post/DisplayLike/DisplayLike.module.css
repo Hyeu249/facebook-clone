@@ -1,0 +1,14 @@
+.post_bottom_displayShareLike_like {
+  position: relative;
+  display: flex;
+  height: 22px;
+  align-items: center;
+}
+
+.post_bottom_displayShareLike_like_number {
+  line-height: 18px;
+  margin-left: 10px;
+}
+.marginLeft_20 {
+  margin-left: 20px;
+}

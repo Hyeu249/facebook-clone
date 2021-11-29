@@ -1,0 +1,45 @@
+.mainModal {
+  position: fixed !important;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 54px);
+  background-color: #f2f3f5;
+  z-index: 4;
+}
+.settingPanel {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  background-color: #fff;
+  box-shadow: 0px 0.1px 3px #b8b8b8;
+  overflow-y: auto;
+  height: calc(100vh - 54px);
+}
+.photoOrText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+  font-size: 30px;
+  font-weight: 600;
+}
+.createAPhotoStory {
+  margin-right: 22px;
+}
+.createAPhotoStory:active {
+  transform: scale(0.99);
+}
+.createATextStory:active {
+  transform: scale(0.99);
+}
+.previewStory {
+  position: relative;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 54px);
+  z-index: -1;
+}

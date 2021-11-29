@@ -1,0 +1,6 @@
+.createdFrame {
+  display: flex;
+  margin: 0 -4px;
+  padding: 8px 0 24px 0;
+  /* background-color: orange; */
+}

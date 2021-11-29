@@ -1,0 +1,13 @@
+.sponsored {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 8px 8px 0px;
+}
+.sponsored_title {
+  padding: 20px 8px 8px;
+  color: #65676b;
+  line-height: 1.1765;
+  font-size: 1.0625rem;
+  font-weight: 600;
+}

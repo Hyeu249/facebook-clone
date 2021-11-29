@@ -1,0 +1,6 @@
+.topBar {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 0 8px;
+}

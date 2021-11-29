@@ -1,0 +1,118 @@
+/* show border bottom when checked icon */
+#homeIcon:checked ~ div,
+#friendsIcon:checked ~ div,
+#watchIcon:checked ~ div,
+#groupIcon:checked ~ div,
+#gameIcon:checked ~ div,
+#AnotherIcon:checked ~ div {
+  opacity: 1 !important;
+}
+/*prevent background active icon have black color */
+#homeIcon:checked + label,
+#friendsIcon:checked + label,
+#watchIcon:checked + label,
+#groupIcon:checked + label,
+#gameIcon:checked + label,
+#AnotherIcon:checked + label {
+  background-color: #4267b2 !important;
+}
+/* Hover icon */
+#homeIcon + label:hover,
+#friendsIcon + label:hover,
+#watchIcon + label:hover,
+#groupIcon + label:hover,
+#gameIcon + label:hover,
+#AnotherIcon + label:hover {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.068);
+  cursor: pointer;
+}
+/* describe */
+#homeIcon + label:hover ~ span::before {
+  content: "Trang chủ";
+  position: absolute;
+  width: 82px;
+  top: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 0.8em;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.699);
+  z-index: 1;
+}
+#friendsIcon + label:hover ~ span::before {
+  content: "Bạn bè";
+  position: absolute;
+  width: 65px;
+  top: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 0.8em;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.699);
+  z-index: 1;
+}
+#watchIcon + label:hover ~ span::before {
+  content: "Watch";
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 0.8em;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.699);
+  z-index: 1;
+}
+#groupIcon + label:hover ~ span::before {
+  content: "Nhóm";
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 0.8em;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.699);
+  z-index: 1;
+}
+#gameIcon + label:hover ~ span::before {
+  content: "Trò chơi";
+  position: absolute;
+  width: 72px;
+  top: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 0.8em;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.699);
+  z-index: 1;
+}
+#AnotherIcon + label:hover ~ span::before {
+  content: "Khác";
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 0.8em;
+  padding: 8px 12px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.699);
+  z-index: 1;
+}

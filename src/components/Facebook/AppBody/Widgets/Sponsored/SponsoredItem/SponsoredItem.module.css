@@ -1,0 +1,27 @@
+.sponsored_item {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+}
+.sponsored_item:hover {
+  background-color: #e2e2e2;
+}
+.sponsored_item:active {
+  transform: scale(0.99);
+}
+.sponsored_item_picture {
+  width: 131px;
+  height: 131px;
+  margin-left: 6px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(230, 230, 230);
+}
+.sponsored_item_describe {
+  display: flex;
+  flex-direction: column;
+}

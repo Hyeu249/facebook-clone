@@ -1,0 +1,14 @@
+.circleBorder {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e4e6eb;
+}
+.circleBorder:active {
+  transform: scale(0.95);
+}
+.circleBorder:hover {
+  background-color: rgb(226, 226, 226);
+  cursor: pointer;
+}

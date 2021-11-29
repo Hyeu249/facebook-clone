@@ -1,0 +1,31 @@
+.post_bottom_displayComment {
+  display: flex;
+  padding: 10px 0;
+  flex-direction: column;
+}
+.post_bottom_displayComment_sortComment {
+  display: flex;
+  justify-content: flex-end;
+  width: 65px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #65676b;
+  cursor: pointer;
+  user-select: none;
+  margin-left: calc(100% - 65px);
+}
+.post_bottom_displayComment_viewMore {
+  color: #385898;
+  font-size: 0.91rem;
+  font-weight: 600;
+  width: 167px;
+  cursor: pointer;
+  margin-top: 4px;
+  user-select: none;
+}
+.post_bottom_displayComment_viewMore:hover {
+  text-decoration: underline;
+}
+.post_bottom_displayComment_viewMore:active {
+  transform: scale(0.98);
+}

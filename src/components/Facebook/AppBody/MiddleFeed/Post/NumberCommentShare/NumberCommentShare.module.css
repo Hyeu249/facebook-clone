@@ -1,0 +1,12 @@
+.post_bottom_displayShareLike_shareComment {
+  display: flex;
+}
+.post_bottom_displayShareLike_shareComment_item {
+  margin-left: 10px;
+  color: #65676b;
+  cursor: pointer;
+  user-select: none;
+}
+.post_bottom_displayShareLike_shareComment_item:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+.backgroundFrame {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 18px;
+  bottom: 25px;
+}
+.background {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.background:active {
+  transform: scale(0.96);
+}
+#bOne:checked + label,
+#bTwo:checked + label,
+#bThree:checked + label,
+#bFour:checked + label,
+#bFive:checked + label,
+#bSix:checked + label,
+#bSeven:checked + label,
+#bEight:checked + label,
+#bNine:checked + label,
+#bTen:checked + label {
+  border: 2px solid #fff;
+  box-shadow: var(--shadown);
+}

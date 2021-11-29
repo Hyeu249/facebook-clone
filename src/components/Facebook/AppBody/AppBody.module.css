@@ -1,0 +1,29 @@
+.SideBar {
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+.MiddleFeed {
+  display: flex;
+  padding-top: 16px;
+  box-sizing: border-box;
+  color: #fff;
+  z-index: 0;
+}
+.Widgets {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+  color: #fff;
+  overflow-y: auto;
+  z-index: 0;
+}
+@media (max-width: 1113px) {
+  .flexStart {
+    justify-content: start;
+  }
+}

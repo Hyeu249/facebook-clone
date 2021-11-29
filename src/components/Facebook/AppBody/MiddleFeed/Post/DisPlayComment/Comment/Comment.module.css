@@ -1,0 +1,56 @@
+.post_bottom_displayComment_comments {
+  display: flex;
+}
+.post_bottom_displayComment_comments_avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid rgb(202, 202, 202);
+  user-select: none;
+}
+.post_bottom_displayComment_comments_right {
+  display: flex;
+  flex-direction: column;
+}
+.post_bottom_displayComment_comments_right_messen {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background-color: rgb(238, 238, 238);
+  margin-right: 50px;
+}
+.post_bottom_displayComment_comments_right_messen_name {
+  color: #050505;
+  font-size: 0.91rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.post_bottom_displayComment_comments_right_messen_name:hover {
+  text-decoration: underline;
+}
+.post_bottom_displayComment_comments_right_messen_text {
+  color: #050505;
+  font-size: 0.91rem;
+  font-weight: 400;
+}
+.post_bottom_displayComment_comments_right_likeComment {
+  display: flex;
+  color: #385898;
+  font-size: 0.91rem;
+  line-height: 1.3333;
+  padding: 4px 0;
+  font-weight: bold;
+}
+.post_bottom_displayComment_comments_right_likeComment_item {
+  cursor: pointer;
+  user-select: none;
+}
+
+.post_bottom_displayComment_comments_right_likeComment_item:hover {
+  text-decoration: underline;
+}
+.post_bottom_displayComment_comments_right_likeComment_item:active {
+  transform: scale(0.95);
+}

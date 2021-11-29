@@ -1,0 +1,7 @@
+.chat {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  right: 100px;
+  z-index: 1;
+}

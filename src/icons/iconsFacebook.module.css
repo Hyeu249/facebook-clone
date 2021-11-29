@@ -1,0 +1,37 @@
+.svg {
+  fill: white;
+}
+.deleteIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 12px;
+}
+.xIconLarge {
+  width: 20px;
+  height: 20px;
+  margin: 0 8px 0 17px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #c7c7c7;
+  cursor: pointer;
+}
+.xIconLarge:hover {
+  background-color: #d1d1d1;
+}
+.xIconLarge:active {
+  transform: scale(0.95);
+}
+.paddingMarginLeftCursorDivIcon {
+  padding: 6px;
+  margin-left: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+.paddingMarginLeftCursorDivIcon:hover {
+  background-color: #d8d8d8;
+}
+.paddingMarginLeftCursorDivIcon:active {
+  transform: scale(0.95);
+}

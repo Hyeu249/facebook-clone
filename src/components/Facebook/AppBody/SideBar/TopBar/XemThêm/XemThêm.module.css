@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.main:hover {
+  background-color: rgb(236, 236, 236);
+}
+.XemThêm {
+  padding: 9px;
+  margin-right: 12px;
+  border-radius: 25px;
+  background-color: rgb(241, 241, 241);
+}
+.text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  line-height: 1.3333;
+  line-height: 1.3333;
+}
+.main:active {
+  transform: scale(0.98);
+}

@@ -1,0 +1,8 @@
+.eyes {
+  width: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 17px;
+  cursor: pointer;
+}

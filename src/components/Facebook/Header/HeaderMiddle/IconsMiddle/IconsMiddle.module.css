@@ -1,0 +1,13 @@
+.label_of_icon {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+/* @media (max-width: 739px) {
+  .label_of_icon {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+} */

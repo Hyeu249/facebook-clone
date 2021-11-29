@@ -1,0 +1,20 @@
+.button {
+  width: 100%;
+  height: 48px;
+  border: none;
+  color: white;
+  margin-top: 10px;
+  background-color: #1877f2;
+  border-radius: 8px;
+  transition: background-color 0.2s linear;
+}
+.button:hover {
+  background-color: #0069f1;
+  transition: background-color 0.2s linear;
+}
+button:disabled,
+button[disabled]:hover {
+  background-color: rgb(211, 211, 211);
+  color: rgb(148, 148, 148);
+  border: none;
+}

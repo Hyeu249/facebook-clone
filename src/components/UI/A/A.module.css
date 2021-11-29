@@ -1,0 +1,7 @@
+.a {
+  text-decoration-line: none;
+  color: #385898;
+}
+.a:hover {
+  text-decoration-line: underline;
+}

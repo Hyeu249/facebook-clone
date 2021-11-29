@@ -1,0 +1,30 @@
+.post_bottom_displayComment_writing {
+  display: flex;
+  padding: 10px 0;
+}
+.post_bottom_displayComment_writing_avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid rgb(185, 185, 185);
+  user-select: none;
+}
+.post_bottom_displayComment_writing_input {
+  width: 100%;
+  margin-left: 7px;
+  padding-left: 10px;
+  font-size: 0.96rem;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  background-color: #f3f3f3;
+}
+.iconWritingInput {
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+.iconWritingInput:hover {
+  background-color: #dddddd;
+}

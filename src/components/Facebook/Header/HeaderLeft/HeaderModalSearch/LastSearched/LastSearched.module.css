@@ -1,0 +1,20 @@
+.lastSearchedItem {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+.lastSearchedItem:hover {
+  border-radius: 10px;
+  background-color: var(--bg_hover);
+  cursor: pointer;
+}
+.deleteIcon {
+  width: 28px;
+  height: 28px;
+}
+.deleteIcon:hover {
+  border-radius: 25px;
+  background-color: rgb(219, 219, 219);
+}

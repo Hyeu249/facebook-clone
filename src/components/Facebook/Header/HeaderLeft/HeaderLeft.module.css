@@ -1,0 +1,39 @@
+/* pc area */
+@media (min-width: 1114px) {
+  .circleSearch__left__for__mobileTablet {
+    display: none;
+  }
+}
+/* tablet area */
+@media (max-width: 1113px) {
+  .circleSearch__left__for__mobileTablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f2f3f5;
+    cursor: pointer;
+  }
+  .circleSearch__left__for__mobileTablet:active {
+    transform: scale(0.95);
+  }
+  .onlyPc {
+    display: none;
+  }
+}
+
+.searchIcon__left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: -4px 0 0 5px;
+  fill: white;
+  z-index: 100;
+}
+.header__input__onClick {
+  width: 244px;
+  padding-left: 10px !important;
+  transition: all 0.2s linear;
+}

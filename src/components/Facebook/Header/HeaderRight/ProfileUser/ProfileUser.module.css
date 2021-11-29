@@ -1,0 +1,12 @@
+.profileUser {
+  padding: 5px;
+  border-radius: 25px;
+  user-select: none;
+}
+.profileUser:hover {
+  background-color: rgba(0, 0, 0, 0.068);
+  cursor: pointer;
+}
+.profileUser:active {
+  transform: scale(0.95);
+}

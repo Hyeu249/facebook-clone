@@ -1,0 +1,10 @@
+.columnStory {
+  width: 562px;
+  padding: 0 12px;
+}
+.columnNewFeed {
+  display: flex;
+  flex-direction: column;
+  width: 562px;
+  padding: 0 12px;
+}

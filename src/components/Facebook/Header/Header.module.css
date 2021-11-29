@@ -1,0 +1,52 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #4267b2;
+  padding: 4px 20px;
+  height: 48px;
+  z-index: 1;
+}
+.header__left {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  margin-top: 4px;
+}
+.header__left img {
+  height: 40px;
+}
+.header__input {
+  padding-left: 10px;
+}
+.header__input_input {
+  width: 222px;
+  font-size: 0.9375rem;
+  padding: 0 0 0 30px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  height: 40px;
+  background-color: #f3f3f3;
+  transition: all 0.2s linear;
+}
+.header__middle {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.header__option {
+  box-sizing: border-box;
+  margin: 0 5px;
+}
+.header__option--flexGrow {
+  flex-grow: 1;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  margin-top: -4px;
+}

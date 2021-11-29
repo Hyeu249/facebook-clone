@@ -1,0 +1,10 @@
+.chat_aConnection {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 463px;
+  box-shadow: var(--shadown);
+  margin-left: 10px;
+  border-radius: 10px 10px 0 0;
+  background-color: #ffffff;
+}

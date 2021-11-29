@@ -1,0 +1,38 @@
+.discard {
+  /* width: 136px; */
+  width: 40%;
+  height: 35px;
+  background-color: #dadde1;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  user-select: none;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.discard:hover {
+  background-color: #d1d1d1;
+}
+.discard:active {
+  transform: scale(0.95);
+}
+.shareStory {
+  /* width: 182px; */
+  width: 55%;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  background-color: #1877f2;
+  user-select: none;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.shareStory:hover {
+  background-color: #0069f1;
+}
+.shareStory:active {
+  transform: scale(0.95);
+}

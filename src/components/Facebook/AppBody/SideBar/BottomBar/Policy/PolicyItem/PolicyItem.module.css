@@ -1,0 +1,14 @@
+.dot {
+  width: 2px !important;
+  height: 2px !important;
+  margin-right: 5px;
+}
+.text {
+  margin-right: 5px;
+  font-size: 12px;
+  color: #295da1;
+  text-decoration: none;
+}
+.text:hover {
+  text-decoration: underline;
+}

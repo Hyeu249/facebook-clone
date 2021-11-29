@@ -1,0 +1,11 @@
+.subConnected {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  right: 25px;
+  bottom: 0;
+  padding-bottom: 20px;
+  z-index: 2;
+  box-sizing: border-box;
+}

@@ -1,0 +1,40 @@
+.chat_aConnection_body_myMessenger {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px 10px 5px 80px;
+  word-break: break-all;
+}
+.chat_aConnection_body_myMessenger_theMessenger {
+  color: #fff;
+  padding: 7px 12px;
+  background-color: rgb(0, 132, 255);
+  border-radius: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.1rem;
+}
+
+/* friend messenger */
+.chat_aConnection_body_friendMessenger {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 5px 0;
+  word-break: break-all;
+}
+.chat_aConnection_body_friendMessenger_avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: blue;
+  margin: 0 10px;
+}
+.chat_aConnection_body_friendMessenger_theMessenger {
+  color: black;
+  padding: 7px 12px;
+  border-radius: 15px;
+  max-width: 200px;
+  background-color: rgb(211, 211, 211);
+  font-size: 0.9375rem;
+  line-height: 1.1rem;
+}

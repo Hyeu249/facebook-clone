@@ -1,0 +1,67 @@
+.createAPost {
+  padding: 0px 16px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: var(--shadown);
+}
+.createAPost_top {
+  display: flex;
+  padding: 14px 0;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+.createAPost_top_avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 50%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.createAPost_top_avatar:active {
+  transform: scale(0.97);
+}
+.createAPost_top_input {
+  flex: 1;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(243, 243, 243);
+  cursor: pointer;
+  padding-left: 10px;
+  line-height: 40px;
+  color: #65676b;
+  font-size: 1.0625rem;
+  user-select: none;
+}
+.createAPost_top_input:hover {
+  background-color: rgb(235, 235, 235);
+}
+.createAPost_top_input:active {
+  transform: scale(0.994);
+  background-color: #ececec;
+}
+.createAPost_bottom {
+  display: flex;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: #666666;
+}
+.createAPost_bottom_option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 7px;
+  cursor: pointer;
+  user-select: none;
+}
+.createAPost_bottom_option:hover {
+  background-color: #eeeeee;
+}
+.createAPost_bottom_option:active {
+  transform: scale(0.97);
+}

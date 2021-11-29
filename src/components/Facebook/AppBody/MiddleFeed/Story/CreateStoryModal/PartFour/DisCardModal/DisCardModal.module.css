@@ -1,0 +1,35 @@
+.discard {
+  width: 138px;
+  height: 36px;
+  background-color: #1877f2;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+}
+.discard:hover {
+  background-color: #0f6ce6;
+}
+.discard:active {
+  transform: scale(0.95);
+}
+.continueEdit {
+  width: 130px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  font-size: 0.9375rem;
+  color: #1877f2;
+  border-radius: 5px;
+  margin-right: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+.continueEdit:hover {
+  background-color: rgb(230, 230, 230);
+}
+.continueEdit:active {
+  transform: scale(0.95);
+}

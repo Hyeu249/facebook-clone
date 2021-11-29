@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { Fragment } from "react";
+import { useSelector } from "react-redux";
+import Credentials from "./components/Credentials/Credentials";
+import Facebook from "./components/Facebook/Facebook";
 
 function App() {
+  const isLogin = useSelector((state) => state.isLogin);
+
+  //Return JXS
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      {!isLogin && <Credentials />}
+      {isLogin && <Facebook />}
+    </Fragment>
   );
 }
 

@@ -1,0 +1,13 @@
+.optionalIcon {
+  /* padding: 6px; */
+  /* cursor: pointer;
+  user-select: none; */
+  margin-left: 5px;
+}
+.optionalIcon:active {
+  transform: scale(0.9);
+}
+#addPhoto:checked + label {
+  background-color: rgb(213, 255, 213);
+  border-radius: 50%;
+}
